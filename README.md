@@ -1,4 +1,4 @@
-Necessário ter o Python (https://www.python.org/downloads/) instalado na máquina e configurado no PATH (versão inferior sugerida 3.10.*)
+Necessário ter o Python (https://www.python.org/downloads/) instalado na máquina e configurado no PATH (versão superior sugerida 3.10.*)
 
 Ter instalado o "robotframework" na máquina:
 - para verificar ser já possui instalado executar o comando: <b>pip freeze</b> - este comando lista todas e quaisquer biblioteca Python instalada na máquina
