@@ -15,4 +15,18 @@ Buscar por um livro específico (GET com parametro ID)
     Conferir o status code      200
     Conferir o reason       OK
     Conferir se retorna os todos os dados corretos do livro 20
-    
+
+Cadastrar um novo livro (POST)
+    Cadastrando um novo livro
+    Conferir o status code      200
+    Conferir o reason       OK
+    Conferir se retorna dados corretos do livro cadastrado
+
+Alterar um livro cadastrado(PUT)
+    Alterar um cadastro de um livro existente       0
+    Conferir o status code      200
+    Conferir se retorna dados corretos do livro alterado
+
+Deletando um livro existente (DELETE)
+    Deletar um livro existente      0
+    Conferir o status code      200
