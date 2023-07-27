@@ -46,13 +46,10 @@ Alterar um cadastro de um livro existente
     ...                                ${DESCRIPTION}
     ...                                ${PAGE_COUNT}
 
-    Set Test Variable                  ${RESPOSTA}                                                                                                                                          ## declarando a variável como global para que seja reutilziada em outras KEYWORDS de testes
-
 Deletar um livro existente
     [Arguments]                        ${LIVRO_ESPERADO}
     
     Delete A Book                      ${LIVRO_ESPERADO}
-
     
 ### Validações
 Conferir o status code
