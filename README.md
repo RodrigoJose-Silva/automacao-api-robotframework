@@ -8,9 +8,9 @@ Utilizado a library HTTP RequestsLibrary (Python): <b>pip install robotframework
 
 <h2><b>Comando de execução do teste / suite</b></h2>
 
-<b>robot -d .\results TestCaseAPIBooks.robot</b><br>
+<b>robot -d ./reports BooksAPI/test_api/test_api_books.robot</b><br>
 <br>
-robot= default<br>
--d .\ results= informa o diretório onde salvará os LOGS / REPORTS<br>
-TestCaseAPIBooks.robot= suite de teste a ser executado.
+<b>robot</b>= default<br>
+<b>-d .\ reports</b>= informa o diretório onde salvará os LOGS / REPORTS<br>
+<b>BooksAPI/test_api/test_api_books.robot</b>= suite de teste a ser executado.
 
